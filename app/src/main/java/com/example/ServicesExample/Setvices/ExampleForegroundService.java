@@ -39,7 +39,7 @@ public class ExampleForegroundService extends Service {
 
         //stopSelf(); Method can be used for stop current service
 
-        startForeground(1, notification);
+        //startForeground(1, notification);
         return START_NOT_STICKY;
     }
 
