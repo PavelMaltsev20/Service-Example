@@ -41,7 +41,7 @@ public class ExampleBackgroundServices extends IntentService {
                     .setSmallIcon(R.drawable.ic_service)
                     .build();
             
-            //startForeground(1, notification);
+            startForeground(1, notification);
 
         }
     }
